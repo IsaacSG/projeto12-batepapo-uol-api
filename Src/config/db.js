@@ -5,4 +5,4 @@ dotenv.config()
 
 const mongoClient = new MongoClient(process.env.MONGO_URL)
 
-export default mongoClient
+export default mongoClient;
